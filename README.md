@@ -1,6 +1,6 @@
 # 介绍
 
-本项目为Bootstrap分页插件。
+此项目为Bootstrap分页插件.
 
 支持版本：Bootstrap 4.0+
 
