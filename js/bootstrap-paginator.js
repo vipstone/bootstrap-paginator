@@ -60,12 +60,13 @@ var paginator = {
         // 组合html代码附加到控件
         var createHtml = '<ul class="pagination justify-content-center">';
         var url = window.location.href;
+        var replaceVal = this.paramKey + "=" + paginator.getUrlParam(this.paramKey);
         if (!paginator.getUrlParam(this.paramKey)) {
             //添加参数
             var preNumber = currentPage <= 1 ? 1 : (currentPage - 1); //上一页页码
             url += (url.indexOf("?") == -1 ? "?" : "&") + this.paramKey + "=" + currentPage;
+            replaceVal = this.paramKey + "=" + currentPage;
         }
-        var replaceVal = this.paramKey + "=" + paginator.getUrlParam(this.paramKey);
         var preNumber = currentPage <= 1 ? 1 : (currentPage - 1); //上一页页码
         if (preLock) {
             createHtml += '<li class="page-item disabled">';
