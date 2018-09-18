@@ -28,7 +28,11 @@ Step 2 增加调用代码
 
 # 效果展示
 
-静态图片：![](http://icdn.apigo.cn/blog/bs-pageing-1.png)
+静态效果：
 
-动态图片：![](http://icdn.apigo.cn/blog/bs-pageing-2.gif)
+![](http://icdn.apigo.cn/blog/bs-pageing-1.png)
+
+动态效果：
+
+![](http://icdn.apigo.cn/blog/bs-pageing-2.gif)
 
